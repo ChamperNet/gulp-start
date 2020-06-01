@@ -3,7 +3,9 @@ html(lang="ru")
     block head
         head
             meta(charset="utf-8")
-            title Title your site
+            title Start
+            meta(name="keywords" content="")
+            meta(name="description" content="")
             meta(content="width=device-width, initial-scale=1" name="viewport")
             meta(content="ie=edge" http-equiv="x-ua-compatible")
             link(rel="stylesheet" href="css/style.css")
@@ -13,5 +15,8 @@ html(lang="ru")
         block content
         block footer
             include footer
+        block modals
+            include modals
         block scripts
-            script(src='/main.js')
+            script(src='https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js')
+            script(src='/js/main.min.js')

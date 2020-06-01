@@ -1,1 +1,1 @@
-# Template for quick start
+# Template for quick start v2.0
