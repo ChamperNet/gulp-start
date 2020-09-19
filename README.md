@@ -1,1 +1,1 @@
-# MedasTex.ru frontend
+# Template for web-projects
