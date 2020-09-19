@@ -14,3 +14,14 @@ reports/
 
 # Папка с собранными файлами проекта
 build/
+
+# Git ignore bitrix
+deploy/bitrix/cache/*
+deploy/bitrix/managed_cache/*
+deploy/bitrix/stack_cache/*
+deploy/bitrix/backup/*
+deploy/bitrix/php_interface/dbconn.php
+deploy/bitrix/.settings.php
+deploy/bitrix/*.log
+deploy/bitrix/modules/updater.log
+deploy/bitrix/modules/updater_partner.log

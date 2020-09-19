@@ -1,1 +1,1 @@
-# Template for quick start v2.0
+# MedasTex.ru frontend
