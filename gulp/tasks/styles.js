@@ -13,6 +13,7 @@ module.exports = function styles() {
         .pipe(plumber())
         .pipe(gulpStylelint({
             failAfterError: false,
+            reportOutputDir: 'reports/lint',
             reporters: [
                 {
                     formatter: 'string',
@@ -23,7 +24,7 @@ module.exports = function styles() {
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(autoprefixer({
-            cascade: false
+            cascade: true
         }))
         .pipe(shorthand())
         .pipe(cleanCSS({
@@ -36,4 +37,3 @@ module.exports = function styles() {
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('build/css'))
 }
-

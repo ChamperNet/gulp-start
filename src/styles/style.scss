@@ -1,7 +1,29 @@
+/* 3rd party packages */
+
+@import "../local_modules/normalize.css/normalize";
+
+@import "../local_modules/tiny-slider/dist/tiny-slider";
+
+/* SASS and Global'ish Stuff */
+
+@import "utils/fonts";
+
+@import "utils/variables";
+
+@import "utils/mixins";
+
 @import "common/global";
+
+/* general files */
 
 @import "common/header";
 
 @import "common/footer";
 
 @import "common/modals";
+
+/* BEM Blocks */
+
+/* TEMP */
+
+@import "modules/temp";

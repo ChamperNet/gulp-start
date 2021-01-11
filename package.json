@@ -1,7 +1,7 @@
 {
-    "name": "gulp-template",
+    "name": "IA-ED",
     "version": "2.0.0",
-    "description": "Standard build for web-projects",
+    "description": "Bitrix-based corporate website",
     "main": "gulpfile.js",
     "scripts": {
         "start": "gulp start",
